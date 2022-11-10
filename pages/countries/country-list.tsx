@@ -8,9 +8,9 @@ export default function CountryList({ countriesData } : any) {
         countriesData.map((country : any, key : any) => <li key={key}>{country.name.common}</li>)
       }
       </ul>
-      <button>
+      <p>
         <Link href="/">Voltar para a página inicial</Link>
-      </button>
+      </p>
     </>
   );
 }
